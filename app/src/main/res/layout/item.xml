@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/item_card"
+    android:elevation="8dp"
+    android:clickable="true"
+
+    >
+    <RelativeLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/coffee1"
+
+        >
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/caramel_macchiato"
+            android:scaleType="centerInside"
+            android:padding="35dp"
+
+
+            />
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caramel Maccachino"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:padding="2dp"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/shadows_into_light_regular"
+            />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    app:cardCornerRadius="26dp"
+    android:layout_margin="16dp"
+    android:id="@+id/detail_card"
+    android:elevation="8dp"
+    >
+    <RelativeLayout
+        android:id="@+id/detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/coffee1"
+        android:padding="15dp"
+        >
+        <ImageView
+            android:id="@+id/detail_img"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/iced_coffe_mocha"
+            android:scaleType="fitXY"
+            android:padding="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_img"
+            android:text="Coffe Mocha"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:padding="14dp"
+            android:fontFamily="@font/shadows_into_light_regular"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/detail_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_title"
+            android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+            android:textColor="#F3F3F3"
+            android:textSize="23sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/shadows_into_light_regular"
+            />
+        <Button
+            android:id="@+id/detail_btn_byu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/detail_detail"
+            android:text="Buy"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/shadows_into_light_regular"
+            />
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
